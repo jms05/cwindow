@@ -14,6 +14,9 @@ namespace famaCodeWindow.dataModels
             Action,
             Player,
             Term,
+            Moment,
+            Pass,
+            Zone,
         }
         public string id;
         public List<string> incompatibleBNTS;
@@ -45,4 +48,7 @@ namespace famaCodeWindow.dataModels
             this.text = text;
         }
     }
+
+
+    
 }
